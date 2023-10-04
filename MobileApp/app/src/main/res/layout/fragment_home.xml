@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        android:layout_width="74dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/info_home"
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/classroom1"
+                android:src="@drawable/ic_outline_door_sliding_24" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="@string/classroom1"
+                android:textAlignment="center"
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/classroomOneInfoIndicator"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/classroom1"
+                android:src="@drawable/circle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/classroom2"
+                android:src="@drawable/ic_outline_door_sliding_24" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="@string/classroom2"
+                android:textAlignment="center"
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/classroomTwoInfoIndicator"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/classroom1"
+                android:src="@drawable/circle" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/select_language"
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/cataloniaFlag"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_catalonia_flag"
+                android:background="@drawable/rounded_button"
+                android:layout_marginRight="20dp"
+                android:contentDescription="TODO" />
+
+            <ImageButton
+                android:id="@+id/spainFlag"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_spain_flag"
+                android:background="@drawable/rounded_button"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="TODO"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

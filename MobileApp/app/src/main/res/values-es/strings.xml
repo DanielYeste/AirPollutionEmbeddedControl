@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MM</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="action_settings">Configuración</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="classroom1">Aula 1</string>
+    <string name="classroom2">Aula 2</string>
+    <string name="title_activity_login">Inicio de sesión</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="invalid_username">Nombre de usuario no válido</string>
+    <string name="invalid_password">La contraseña debe tener más de cinco caracteres</string>
+    <string name="login_failed">Error al iniciar sesión</string>
+    <string name="info_temperature">La temperatura actual del aula se muestra a la derecha del logotipo del termómetro. Un icono con una exclamación significa que la temperatura no es adecuada y debe ser regulada.</string>
+    <string name="general_nav_info">Pulsando en la parte superior izquierda se accede a las salas disponibles para ver los datos</string>
+    <string name="danger_error_explanation">Indicación de que las condiciones no son adecuadas en el entorno de trabajo</string>
+    <string name="guide">Guía</string>
+    <string name="warning_error_explanation">Indicación de que las condiciones son mejorables en el entorno de trabajo</string>
+    <string name="nav_header_info">Control de aulas UB</string>
+    <string name="info_home">Bienvenido a la aplicación de control ambiental de las aulas de la UB. A continuación encontrarás información general sobre el estado de las aulas.</string>
+    <string name="temperature">Temperatura</string>
+    <string name="humidity">Humedad</string>
+    <string name="danger_indicator">Indicador de peligro</string>
+    <string name="select_language">Seleccione el idioma</string>
+    <string name="spanish_language">Castellano</string>
+    <string name="catalan_language">Català</string>
+</resources>

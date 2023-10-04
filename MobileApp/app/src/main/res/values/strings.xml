@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MM</string>
+    <string name="navigation_drawer_open">Obrir el menú de navegació</string>
+    <string name="navigation_drawer_close">Tancar el menú de navegació</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Capçalera de navegació</string>
+    <string name="action_settings">Configuració</string>
+
+    <string name="menu_home">Inici</string>
+    <string name="classroom1">Aula 1</string>
+    <string name="classroom2">Aula 2</string>
+    <string name="title_activity_login">Inici de sessió</string>
+    <string name="prompt_email">Correu electrònic</string>
+    <string name="prompt_password">Contrasenya</string>
+    <string name="action_sign_in">Iniciar sessió</string>
+    <string name="action_sign_in_short">Iniciar sessió</string>
+    <string name="welcome">Benvingut!</string>
+    <string name="invalid_username">Nom d\'usuari no vàlid</string>
+    <string name="invalid_password">La contrasenya ha de tenir més de cinc caràcters</string>
+    <string name="login_failed">Error en l\'inici de sessió</string>
+    <string name="info_temperature">La temperatura actual de l\'aula es mostra a la dreta del logotip del termòmetre. Un icona amb una exclamació significa que la temperatura no és adequada i cal regular-la.</string>
+    <string name="general_nav_info">Punxant a la part superior esquerra s\'accedeix a les sales disponibles per veure les dades</string>
+    <string name="danger_error_explanation">Indicació que les condicions no són adequades a l\'entorn de treball</string>
+    <string name="guide">Guia</string>
+    <string name="warning_error_explanation">Indicació que les condicions són millorables a l\'entorn de treball</string>
+    <string name="nav_header_info">Control d\'aules UB</string>
+    <string name="info_home">Benvingut a l\'aplicació de control ambiental de les aules de la UB. A continuació trobaràs informació general sobre l\'estat de les aules.</string>
+    <string name="temperature">Temperatura</string>
+    <string name="humidity">Humitat</string>
+    <string name="danger_indicator">Indicador de perill</string>
+    <string name="select_language">Seleccioni l\'idioma</string>
+    <string name="spanish_language">Castellano</string>
+    <string name="catalan_language">Català</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "522614166558",
+    "firebase_url": "https://polutionub-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "polutionub",
+    "storage_bucket": "polutionub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522614166558:android:ad7fb976de038e3c8cca0f",
+        "android_client_info": {
+          "package_name": "com.example.pollutionub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522614166558-k239lcjvj6hhs00eh68m8nn6ls8bq1lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpcP3BbRkN0MZtmOMCQt7YYOlQHJy42pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522614166558-k239lcjvj6hhs00eh68m8nn6ls8bq1lc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
